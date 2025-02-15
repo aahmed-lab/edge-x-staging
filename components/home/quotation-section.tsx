@@ -1,4 +1,4 @@
-import { Translate } from '~/i18n';
+// import { Translate } from '~/i18n';
 // import { useAuth } from '~/auth';
 import Image from '../shared/image';
 /******************************************************************
