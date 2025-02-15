@@ -1,34 +1,34 @@
 export const marketCategories = [
     {
         title: 'edtech_companies',
-        icon: 'graduation-cap-chart',
+        icon: 'education_focus',
     },
     {
         title: 'online_learning_providers',
-        icon: 'online-learning',
+        icon: 'online_learning_providers',
     },
     {
         title: 'research_innovation_centers',
-        icon: 'bulb-gear',
+        icon: 'research_innovation',
     },
     {
         title: 'education_vc_investment',
-        icon: 'graduation-investment',
+        icon: 'education_focus',
     },
     {
         title: 'international_universities',
-        icon: 'globe-education',
+        icon: 'international_universities',
     },
     {
         title: 'stem_education_tools',
-        icon: 'flask-beaker',
+        icon: 'STEM_education',
     },
     {
         title: 'higher_ed_tech_providers',
-        icon: 'network-education',
+        icon: 'Higher_education',
     },
     {
         title: 'k12_edtech_leaders',
-        icon: 'school-tech',
+        icon: 'k_12_edtech',
     }
 ];

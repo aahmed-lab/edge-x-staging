@@ -31,20 +31,25 @@ const ExhibitionMarket = () => {
                   <div className="row">
                      {marketCategories.map((category, index) => (
                         <div key={index} className="col-12 md:col-6 lg:col-3 mb-6">
-                           <div className="bg-[#0a0a0a] rounded-lg p-8 text-center border border-gray-800 hover:border-[#c28c24] transition-colors duration-300 h-full relative">
-                              <div className="h-16 w-16 mx-auto mb-4">
+                           <div className="bg-[#0a0a0a] rounded-lg p-8 text-center h-full relative" style={{
+                              borderWidth: '1px',
+                              borderStyle: 'solid',
+                              borderImage: 'linear-gradient(to top, rgba(255, 255, 255, 0.3), rgba(194, 140, 36, 0.05)) 1'
+                           }}>
+                              <div className="min-h-[60px] flex items-center justify-center mb-6">
+                                 <h4 className="text-white text-sm font-medium">
+                                    <Translate id={`web:${category.title}`} />
+                                 </h4>
+                              </div>
+                              <div className="h-[80px] w-[80px] mx-auto">
                                  <Image
-                                    src={`/images/icons/${category.icon}.svg`}
+                                    src={`/images/icons/${category.icon}.png`}
                                     alt={category.title}
-                                    width={64}
-                                    height={64}
-                                    layout="responsive"
-                                    className="filter invert opacity-80"
+                                    layout="fill"
+                                    objectFit="contain"
+                                    className="opacity-80"
                                  />
                               </div>
-                              <h4 className="text-white text-lg font-medium">
-                                 <Translate id={`web:${category.title}`} />
-                              </h4>
                               <div className="absolute bottom-0 translate-y-1/2 left-0 right-0">
                                  <Image
                                     src="/images/horizontal_line.png"
