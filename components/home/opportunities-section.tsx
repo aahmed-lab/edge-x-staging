@@ -55,17 +55,17 @@ const OpportunitiesSection = () => {
 
    return (
       <section className="container lg:mt-[50px]" id="overview">
-         <div className="text-left mt-10 lg:col-10 lg:offset-1">
+         <div className=" lg:col-10 lg:offset-1">
             <h1 className="text-4xl font-bold text-teal-400 leading-tight">
-               LIMITLESS OPPORTUNITIES
+               <Translate id="web:limitless_opportunities" />
             </h1>
             <h2 className="text-2xl font-normal text-teal-400 leading-snug">
-               FOR YOUR BRAND
+               <Translate id="web:for_your_brand" />
             </h2>
          </div>
          <div className="row">
             <div className="lg:col-10 lg:offset-1">
-               <div className="row mt-40 justify-center">
+               <div className="row mt-24 justify-center">
                   {
                      /* <!-- Card --> */
                      immersiveExpoDetails.map((item, index) => (
@@ -77,7 +77,7 @@ const OpportunitiesSection = () => {
                                     alt="bg_overview"
                                     layout="fill"
                                     objectFit="cover"
-                                    className=""
+                                    className="opacity-50"
                                  />
                                  <div className="absolute inset-x-0 bottom-0 p-5">
                                     <h3 className="text-[20px] font-bold italic text-white">

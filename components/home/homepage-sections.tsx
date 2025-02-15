@@ -6,6 +6,8 @@ import TransformingSection from './transforming-section';
 import WhySection from './why-section';
 import ContactUsSection from './contact-us-section';
 import ExhibitionMarket from './exhibition-market';
+import QuotationSection from './quotation-section';
+import OpportunitiesSection from './opportunities-section';
 
 /******************************************************************
  *
@@ -24,6 +26,8 @@ const HomepageSections = () => {
          <TogetherSection />
          <TransformingSection />
          <ExhibitionMarket />
+         <OpportunitiesSection />
+         <QuotationSection />
          <WhySection />
          <ContactUsSection />
       </React.Fragment>
